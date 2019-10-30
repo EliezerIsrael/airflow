@@ -351,10 +351,6 @@ class GcfFunctionInvokeOperator(BaseOperator):
     Invokes a deployed Cloud Function. To be used for testing
     purposes as very limited traffic is allowed.
 
-    .. seealso::
-        For more information on how to use this operator, take a look at the guide:
-        :ref:`howto/operator:GcfFunctionDeployOperator`
-
     :param function_id: ID of the function to be called
     :type function_id: str
     :param input_data: Input to be passed to the function
